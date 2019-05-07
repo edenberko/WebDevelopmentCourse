@@ -1,0 +1,117 @@
+/*הטמעת הפונט*/
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&subset=hebrew');
+/*הגדרת הפונט*/
+#container * {
+    font-family: 'Amatic SC', cursive;
+    }
+/*עיצוב הגוף של האתר*/
+body {
+    direction: rtl;
+    background-image: url('../imag/newbag.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 18pt;
+    }
+/*עיצוב התפריט, תחימה שלו */
+nav{
+margin:10px 200px;
+padding:10px 10px;
+}
+/*ביטול הנקודות של התפריט*/
+ul {
+    list-style: none;
+}
+/*עיצוב התפריט ניווט*/
+nav ul li {
+    display: inline-block;
+    float: right;
+    margin:5px 5px;
+}
+/*עיצוב הקיצור של תפריט הניווט*/
+    nav ul li a {
+        display: block;
+        background-color: #7f9c93;
+        color: white;
+        width: 120px;
+        height: 50px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 24pt;
+    }
+    /*עיצוב הקישור של תפריט הניווט בעת מעבר עכבר*/
+        nav ul li a:hover {
+            background-color: tan;
+            -webkit-transition: all 1s linear;
+            -moz-transition: all 1s linear;
+            -ms-transition: all 1s linear;
+            -o-transition: all 1s linear;
+            transition: all 1s linear;
+        }
+        /*עיצוב ותחימה של תוכן האתר*/
+    article {
+       margin:80px 100px 200px 100px;
+       background-color:tan;
+       padding: 50px 50px;
+
+    }
+    /*עיצוב התפריט בעמוד הנוכחי(מראה מיקום באתר) של המשתמש*/
+.here {
+    background-color: tan;
+    color: black;
+}
+/*עיצוב תמונת המקור ביצירה מעגל הפוך*/
+#mhMakor {
+     height: 350px;
+    width: 400px;
+}
+/*עיצוב תמונת הפרוייקט סיום בתקשורת חזותית-מעגל הפוך*/
+#finalP {
+    height: 400px;
+    width: 300px;
+}
+/*עיצוב תמונת ההשארה לפוטרט עצמי*/
+#inspa{
+    height:200px;
+    width:400px;
+}
+/*עיצוב תמונת הפוטרט עצמי*/
+#protret {
+    height: 250px;
+    width: 400px;
+}
+/*עיצוב התמונה בעמוד הבית*/
+#eden {
+    height: 250px;
+    width: 220px;
+    margin: -300px 400px 11px 0px;
+
+
+}
+/*עיצוב הפסקה בעמוד הבית*/
+#pHome {
+    padding: 20px 0px 0px 400px;
+    font-size:20pt;
+}
+/*עיצוב התמונה בתוצר תיקון תמונה*/
+#ayala {
+    background-image: url('../imag/Retouch_after_edenberkovich_opt.jpg');
+    height: 580px;
+    width: 390px;
+    
+}
+    /*עיצוב התמונה בתוצר תיקון תמונה במצב מעבר עכבר*/
+    #ayala:hover {
+        background-image: url('../imag/Retouch_before_edenberkovich_opt.jpg');
+        height: 580px;
+        width: 390px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    
